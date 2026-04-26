@@ -11,7 +11,7 @@
 	"hero_eyebrow": "Modular CMS template for Cloudflare",
 	"hero_title_a": "Same dish.",
 	"hero_title_b": "Your sauce.",
-	"hero_subtitle": "Khao Pad is a multilingual CMS template that runs on Cloudflare Workers, D1, R2, and KV. One SvelteKit app, two subdomains — a fast public site and a full admin panel. Fork it, paste in your Cloudflare IDs, deploy. Lighter than Strapi, cheaper than Supabase, stays on Cloudflare.",
+	"hero_subtitle": "Khao Pad is a multilingual CMS template that runs on Cloudflare Workers, D1, R2, and KV. One SvelteKit app — a fast public site at `/`, a full admin panel at `/cms`. Fork it, paste in your Cloudflare IDs, deploy. Lighter than Strapi, cheaper than Supabase, stays on Cloudflare.",
 	"hero_cta_primary": "View live demo",
 	"hero_cta_secondary": "Star on GitHub",
 	"hero_meta_free": "MIT licensed",

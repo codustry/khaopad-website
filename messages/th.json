@@ -11,7 +11,7 @@
 	"hero_eyebrow": "CMS เทมเพลตโมดูลาร์ สำหรับ Cloudflare",
 	"hero_title_a": "เมนูเดียวกัน",
 	"hero_title_b": "ซอสของคุณ",
-	"hero_subtitle": "ข้าวผัดคือ CMS เทมเพลตหลายภาษาที่รันบน Cloudflare Workers, D1, R2 และ KV — แอป SvelteKit เดียวให้ทั้งสองโดเมนย่อย: หน้าเว็บสาธารณะที่ไว และหน้าผู้ดูแลครบเครื่อง Fork วาง Cloudflare ID ของคุณ ดีพลอยได้เลย เบากว่า Strapi ถูกกว่า Supabase และอยู่บน Cloudflare ตลอดทาง",
+	"hero_subtitle": "ข้าวผัดคือ CMS เทมเพลตหลายภาษาที่รันบน Cloudflare Workers, D1, R2 และ KV — แอป SvelteKit เดียว: หน้าเว็บสาธารณะที่ `/` และหน้าผู้ดูแลครบเครื่องที่ `/cms` Fork วาง Cloudflare ID ของคุณ ดีพลอยได้เลย เบากว่า Strapi ถูกกว่า Supabase และอยู่บน Cloudflare ตลอดทาง",
 	"hero_cta_primary": "ดูเดโมสด",
 	"hero_cta_secondary": "ติดดาวบน GitHub",
 	"hero_meta_free": "ใช้ MIT license",
