@@ -1,0 +1,9 @@
+name = "khaopad-website"
+compatibility_date = "2025-04-01"
+compatibility_flags = ["nodejs_compat"]
+main = ".svelte-kit/cloudflare/_worker.js"
+assets = { directory = ".svelte-kit/cloudflare", binding = "ASSETS" }
+
+[vars]
+PUBLIC_GITHUB_URL = "https://github.com/codustry/khaopad"
+PUBLIC_DEMO_URL = "https://khaopad-example.codustry.workers.dev"

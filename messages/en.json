@@ -1,0 +1,83 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+
+	"nav_features": "Features",
+	"nav_demo": "Live Demo",
+	"nav_stack": "Stack",
+	"nav_docs": "Docs",
+	"nav_github": "GitHub",
+	"nav_try_demo": "Try the demo",
+
+	"hero_eyebrow": "Modular CMS template for Cloudflare",
+	"hero_title_a": "Same dish.",
+	"hero_title_b": "Your sauce.",
+	"hero_subtitle": "Khao Pad is a multilingual CMS template that runs on Cloudflare Workers, D1, R2, and KV. One SvelteKit app, two subdomains — a fast public site and a full admin panel. Fork it, paste in your Cloudflare IDs, deploy. Lighter than Strapi, cheaper than Supabase, stays on Cloudflare.",
+	"hero_cta_primary": "View live demo",
+	"hero_cta_secondary": "Star on GitHub",
+	"hero_meta_free": "MIT licensed",
+	"hero_meta_stack": "SvelteKit · Cloudflare · D1",
+	"hero_meta_i18n": "EN + TH out of the box",
+
+	"stats_articles_label": "Article schema with locales",
+	"stats_articles_value": "EN + TH",
+	"stats_deploy_label": "Cold start",
+	"stats_deploy_value": "< 50ms",
+	"stats_setup_label": "Setup time",
+	"stats_setup_value": "~10 min",
+
+	"features_eyebrow": "What's in the box",
+	"features_title": "Everything a small editorial team needs.",
+	"features_subtitle": "No drag-and-drop builder. No page hierarchy. Just a clean content model, a markdown editor that doesn't fight you, and a public site that's fast.",
+
+	"f_editor_title": "A markdown editor that respects your hands",
+	"f_editor_body": "Toolbar, split-pane preview, ⌘B / ⌘I / ⌘K shortcuts, image picker tied to your R2 library, autosave to localStorage with a recovery banner if your laptop dies mid-paragraph.",
+
+	"f_i18n_title": "Locales as a first-class citizen",
+	"f_i18n_body": "Articles, categories, and tags each have per-locale title and body. The slug stays English-only and shared, so URLs don't fork. Paraglide compiles UI strings to type-safe functions — no runtime dictionary lookups.",
+
+	"f_storage_title": "ContentProvider abstraction",
+	"f_storage_body": "Articles live in D1, media in R2 — both behind a ContentProvider interface. The default D1 provider is shipped and battle-tested. A GitHub-backed provider for git-versioned content is on the roadmap, sitting behind the same interface so the swap is one env var, not a rewrite.",
+
+	"f_auth_title": "Better Auth, sensible defaults",
+	"f_auth_body": "Email + password, D1-backed sessions, four roles out of the box (super_admin → author). First sign-up auto-promotes to super_admin and locks the door behind it.",
+
+	"f_deploy_title": "Real staging + production from day one",
+	"f_deploy_body": "Push main → staging deploy. Tag v1.2.3 → production deploy. Each environment has its own D1/R2/KV bindings. The workflow runs migrations before the worker goes live.",
+
+	"f_template_title": "It's a template, not a framework",
+	"f_template_body": "Click \"Use this template\", or fork the example repo for a working demo with sample content. Stay in sync with upstream via a weekly sync PR — review and merge on your schedule.",
+
+	"demo_eyebrow": "See it running",
+	"demo_title": "A live demo with five fried-rice articles, two locales, one click.",
+	"demo_subtitle": "The demo is a real fork of the template, deployed to Cloudflare Workers with the same pipeline you'll use. Browse the public site, sign in to the CMS, edit an article, hit save — refresh the public route and your edit is live.",
+	"demo_cta_open": "Open the demo",
+	"demo_cta_repo": "View example repo",
+	"demo_credentials_title": "First-time admin",
+	"demo_credentials_body": "Visit /register on the demo to claim the first super-admin account. After that, sign-up locks itself.",
+
+	"stack_eyebrow": "Boring stack on purpose",
+	"stack_title": "Tools we'd reach for anyway.",
+	"stack_subtitle": "Khao Pad doesn't ship a runtime, an ORM, or an auth library. It composes the ones you already trust.",
+	"stack_sveltekit": "SvelteKit 2 + Svelte 5 runes",
+	"stack_cloudflare": "Workers · D1 · R2 · KV",
+	"stack_drizzle": "Drizzle ORM",
+	"stack_better_auth": "Better Auth",
+	"stack_tailwind": "Tailwind CSS 4",
+	"stack_paraglide": "Inlang Paraglide JS 2",
+
+	"cta_title": "Try it for ten minutes.",
+	"cta_subtitle": "Click the demo, sign in, edit a fried-rice recipe. If you like what you feel, fork the template and paste in your Cloudflare IDs. We documented every step.",
+	"cta_primary": "Open the live demo",
+	"cta_secondary": "Read the setup guide",
+
+	"footer_tagline": "An open-source CMS for Cloudflare. Built in Bangkok.",
+	"footer_product": "Product",
+	"footer_link_features": "Features",
+	"footer_link_demo": "Live demo",
+	"footer_link_template": "Use as template",
+	"footer_resources": "Resources",
+	"footer_link_docs": "Documentation",
+	"footer_link_milestones": "Roadmap",
+	"footer_link_setup": "Setup guide",
+	"footer_made_with": "Made with Khao Pad. MIT licensed."
+}

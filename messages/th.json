@@ -1,0 +1,83 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+
+	"nav_features": "ฟีเจอร์",
+	"nav_demo": "เดโมสด",
+	"nav_stack": "เทคสแตก",
+	"nav_docs": "เอกสาร",
+	"nav_github": "GitHub",
+	"nav_try_demo": "ลองเดโม",
+
+	"hero_eyebrow": "CMS เทมเพลตโมดูลาร์ สำหรับ Cloudflare",
+	"hero_title_a": "เมนูเดียวกัน",
+	"hero_title_b": "ซอสของคุณ",
+	"hero_subtitle": "ข้าวผัดคือ CMS เทมเพลตหลายภาษาที่รันบน Cloudflare Workers, D1, R2 และ KV — แอป SvelteKit เดียวให้ทั้งสองโดเมนย่อย: หน้าเว็บสาธารณะที่ไว และหน้าผู้ดูแลครบเครื่อง Fork วาง Cloudflare ID ของคุณ ดีพลอยได้เลย เบากว่า Strapi ถูกกว่า Supabase และอยู่บน Cloudflare ตลอดทาง",
+	"hero_cta_primary": "ดูเดโมสด",
+	"hero_cta_secondary": "ติดดาวบน GitHub",
+	"hero_meta_free": "ใช้ MIT license",
+	"hero_meta_stack": "SvelteKit · Cloudflare · D1",
+	"hero_meta_i18n": "EN + TH ตั้งแต่เริ่ม",
+
+	"stats_articles_label": "สคีมาบทความรองรับหลายภาษา",
+	"stats_articles_value": "EN + TH",
+	"stats_deploy_label": "Cold start",
+	"stats_deploy_value": "ต่ำกว่า 50 มิลลิวินาที",
+	"stats_setup_label": "เวลาในการตั้งค่า",
+	"stats_setup_value": "~10 นาที",
+
+	"features_eyebrow": "ในกล่องมีอะไร",
+	"features_title": "ครบทุกอย่างที่ทีมบรรณาธิการเล็ก ๆ ต้องการ",
+	"features_subtitle": "ไม่มี drag-and-drop builder ไม่มีผังหน้าซับซ้อน มีแต่โครงเนื้อหาที่สะอาด เอดิเตอร์ Markdown ที่ไม่ฝืนมือ และเว็บสาธารณะที่ไว",
+
+	"f_editor_title": "Markdown เอดิเตอร์ที่เคารพมือคุณ",
+	"f_editor_body": "ทูลบาร์ พรีวิวสองจอ ลัด ⌘B / ⌘I / ⌘K มีปุ่มเลือกรูปจากคลังสื่อ R2 บันทึกอัตโนมัติลง localStorage พร้อมแบนเนอร์กู้คืนหากแล็ปท็อปดับกลางย่อหน้า",
+
+	"f_i18n_title": "ภาษาในฐานะพลเมืองชั้นหนึ่ง",
+	"f_i18n_body": "บทความ หมวดหมู่ และแท็ก แต่ละชิ้นมีชื่อและเนื้อหาแยกต่อภาษา สลักยังเป็นภาษาอังกฤษและใช้ร่วมกัน เพื่อให้ URL ไม่แตก Paraglide คอมไพล์ข้อความ UI เป็นฟังก์ชันที่มี type-safety — ไม่มีการลุก dictionary ตอนรัน",
+
+	"f_storage_title": "ที่เก็บเนื้อหาแบบสลับได้ (ContentProvider)",
+	"f_storage_body": "บทความเก็บใน D1 มีเดียอยู่ใน R2 ทั้งสองอย่างซ่อนอยู่หลัง ContentProvider interface ตัว D1 provider เริ่มต้นนั้นพร้อมใช้และผ่านการทดสอบจริง ส่วน GitHub provider สำหรับเก็บเนื้อหาแบบ git-versioned อยู่บน roadmap โดยจะใช้ interface เดียวกัน — สลับด้วย env เดียว ไม่ใช่เขียนใหม่",
+
+	"f_auth_title": "Better Auth พร้อมค่าเริ่มต้นที่เข้าท่า",
+	"f_auth_body": "อีเมล + รหัสผ่าน เซสชันเก็บใน D1 มีบทบาทสี่ระดับให้พร้อม (super_admin → author) ผู้สมัครคนแรกจะถูกตั้งเป็น super_admin โดยอัตโนมัติ แล้วระบบจะปิดช่องสมัครต่อทันที",
+
+	"f_deploy_title": "มี staging + production จริงตั้งแต่วันแรก",
+	"f_deploy_body": "Push เข้า main → ดีพลอย staging Tag v1.2.3 → ดีพลอย production แต่ละ environment มี D1/R2/KV เป็นของตัวเอง Workflow รันมายเกรชันก่อนปล่อย Worker ขึ้น",
+
+	"f_template_title": "เป็นเทมเพลต ไม่ใช่เฟรมเวิร์ก",
+	"f_template_body": "กด \"Use this template\" หรือ fork example repo เพื่อดูเดโมพร้อมเนื้อหาตัวอย่าง อัปเดตจากต้นน้ำผ่าน weekly sync PR — รีวิวและรวมตามจังหวะของคุณ",
+
+	"demo_eyebrow": "ดูของจริง",
+	"demo_title": "เดโมสดมีบทความข้าวผัดห้าเมนู สองภาษา หนึ่งคลิก",
+	"demo_subtitle": "เดโมคือ fork จริงของเทมเพลต ดีพลอยขึ้น Cloudflare Workers ด้วย pipeline เดียวกับที่คุณจะใช้ เปิดหน้าเว็บสาธารณะ ล็อกอินเข้า CMS แก้บทความ กดเซฟ — รีเฟรชหน้าสาธารณะ การแก้ของคุณขึ้นทันที",
+	"demo_cta_open": "เปิดเดโม",
+	"demo_cta_repo": "ดู example repo",
+	"demo_credentials_title": "ผู้ดูแลคนแรก",
+	"demo_credentials_body": "เข้าหน้า /register บนเดโมเพื่อรับสิทธิ์ super-admin คนแรก หลังจากนั้นช่องสมัครจะถูกล็อก",
+
+	"stack_eyebrow": "เลือกของน่าเบื่อโดยตั้งใจ",
+	"stack_title": "เครื่องมือที่เราจะหยิบใช้อยู่แล้ว",
+	"stack_subtitle": "ข้าวผัดไม่ได้สร้าง runtime, ORM หรือ auth library ของตัวเอง — แต่ประกอบของที่คุณไว้ใจอยู่แล้ว",
+	"stack_sveltekit": "SvelteKit 2 + Svelte 5 runes",
+	"stack_cloudflare": "Workers · D1 · R2 · KV",
+	"stack_drizzle": "Drizzle ORM",
+	"stack_better_auth": "Better Auth",
+	"stack_tailwind": "Tailwind CSS 4",
+	"stack_paraglide": "Inlang Paraglide JS 2",
+
+	"cta_title": "ลองสิบนาที",
+	"cta_subtitle": "เปิดเดโม ล็อกอิน แก้สูตรข้าวผัด ถ้าชอบที่ฟีล ก็ fork เทมเพลตแล้ววาง Cloudflare ID ของคุณ ทุกขั้นตอนเรามีคู่มือไว้ให้",
+	"cta_primary": "เปิดเดโมสด",
+	"cta_secondary": "อ่านคู่มือเซตอัป",
+
+	"footer_tagline": "CMS โอเพนซอร์สสำหรับ Cloudflare สร้างที่กรุงเทพฯ",
+	"footer_product": "สินค้า",
+	"footer_link_features": "ฟีเจอร์",
+	"footer_link_demo": "เดโมสด",
+	"footer_link_template": "ใช้เป็นเทมเพลต",
+	"footer_resources": "ทรัพยากร",
+	"footer_link_docs": "เอกสาร",
+	"footer_link_milestones": "โรดแมป",
+	"footer_link_setup": "คู่มือเซตอัป",
+	"footer_made_with": "ทำด้วยข้าวผัด ใช้ MIT license"
+}
