@@ -35,8 +35,8 @@
 	"f_i18n_title": "Locales as a first-class citizen",
 	"f_i18n_body": "Articles, categories, and tags each have per-locale title and body. The slug stays English-only and shared, so URLs don't fork. Paraglide compiles UI strings to type-safe functions — no runtime dictionary lookups.",
 
-	"f_storage_title": "ContentProvider abstraction",
-	"f_storage_body": "Articles live in D1, media in R2 — both behind a ContentProvider interface. The default D1 provider is shipped and battle-tested. A GitHub-backed provider for git-versioned content is on the roadmap, sitting behind the same interface so the swap is one env var, not a rewrite.",
+	"f_storage_title": "D1 + R2, sub-10ms reads",
+	"f_storage_body": "Articles, categories, and tags live in Cloudflare D1 (SQLite at the edge). Media uploads go to R2. Cached read-throughs sit in KV. No external database to manage, no per-region replicas to configure — it's all on Cloudflare's network and reads return in single-digit milliseconds anywhere on the planet.",
 
 	"f_auth_title": "Better Auth, sensible defaults",
 	"f_auth_body": "Email + password, D1-backed sessions, four roles out of the box (super_admin → author). First sign-up auto-promotes to super_admin and locks the door behind it.",
