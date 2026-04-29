@@ -1,6 +1,6 @@
 # khaopad-website
 
-Marketing website for [Khao Pad](https://github.com/codustry/khaopad) — the open-source modular CMS for Cloudflare.
+Marketing website for [Khao Pad](https://github.com/codustry/khaopad) — the open-source website platform for Cloudflare. Drives a non-ecommerce site end-to-end: content, SEO, analytics, navigation, and engagement.
 
 Live: `https://khaopad-website.<your-subdomain>.workers.dev`
 
